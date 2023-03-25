@@ -29,7 +29,7 @@ function Meta(props: MetaProps) {
               type: 'image/jpeg',
             },
           ],
-          site_name: 'Onlineshop',
+          site_name: 'Dashboard - Login Twitter',
         }}
       />
     </>

@@ -5,8 +5,6 @@ import { ErrorText } from './styled';
 import {
   Box,
   Button,
-  Checkbox,
-  FormControlLabel,
   Grid,
   IconButton,
   Link,
