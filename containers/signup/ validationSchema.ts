@@ -8,13 +8,10 @@ export const validationSchema = Yup.object().shape({
   email: Yup.string()
     .email('Invalid email')
     .required('This field can not be empty'),
-  password: Yup.string()
-    // .min(5)
-    // .matches(passwordRules, {
-    //   message:
-    //     'Password should be min 5 characters, 1 Upper case letter, 1 lower case letter, 1 numeric digit',
-    // })
-    .required('This field can not be empty'),
-  phone: Yup.string().required('This field can not be empty'),
-  shippingAddress: Yup.string().required('This field can not be empty'),
+  password: Yup.string().required('This field can not be empty'),
+  // .min(5)
+  // .matches(passwordRules, {
+  //   message:
+  //     'Password should be min 5 characters, 1 Upper case letter, 1 lower case letter, 1 numeric digit',
+  // })
 });

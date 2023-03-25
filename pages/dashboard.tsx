@@ -8,8 +8,8 @@ const Dashboard: NextPage = () => {
   return (
     <>
       <Meta
-        title="NWL - Landing Page"
-        description="Be the first to know how we plan to be part of the solution by innovating sustainable materials into eco-friendly products"
+        title="Dashboard Twitter"
+        description="loremm ipsum"
         pathName="/"
         thumbnail=""
       />

@@ -2,19 +2,19 @@ import React from 'react';
 import type { NextPage } from 'next';
 
 // components
-import HomeContainer from 'containers/Home';
 import Meta from 'components/Meta';
+import SigninFormFormik from 'containers/signin/FormFormik';
 
 const Home: NextPage = () => {
   return (
     <>
       <Meta
-        title="Onlineshop"
-        description="Buy our product"
-        pathName="/"
+        title="Dashboard Twitter"
+        description="loremm ipsum"
+        pathName="/signin"
         thumbnail=""
       />
-      <HomeContainer />
+      <SigninFormFormik />
     </>
   );
 };

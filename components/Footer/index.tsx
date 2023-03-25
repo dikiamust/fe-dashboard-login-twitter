@@ -130,7 +130,7 @@ const Icon = (props: IconProps) => {
   );
 };
 
-const Footer3 = () => {
+const Footer = () => {
   const router = useRouter();
 
   return (
@@ -171,4 +171,4 @@ const Footer3 = () => {
   );
 };
 
-export default Footer3;
+export default Footer;

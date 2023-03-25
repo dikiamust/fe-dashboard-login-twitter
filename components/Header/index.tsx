@@ -55,7 +55,7 @@ interface HeaderProps {
   logo?: string;
 }
 
-const Header3 = ({ logo }: HeaderProps) => {
+const Header = ({ logo }: HeaderProps) => {
   const [openModalNav, setOpenModalNav] = React.useState(false);
 
   const handleCloseModalNav = () => {
@@ -108,7 +108,7 @@ const Header3 = ({ logo }: HeaderProps) => {
             <Button
               variant="primary"
               sx={{ width: '147px', height: '38px' }}
-              onClick={() => router.push('/signin')}
+              onClick={() => router.push('/')}
             >
               Signin
             </Button>
@@ -155,7 +155,7 @@ const Header3 = ({ logo }: HeaderProps) => {
                 variant="secondary"
                 fullWidth
                 sx={{ height: '38px', marginTop: '180px' }}
-                onClick={() => router.push('/signin')}
+                onClick={() => router.push('/')}
               >
                 Sign In
               </Button>
@@ -185,4 +185,4 @@ const Header3 = ({ logo }: HeaderProps) => {
   );
 };
 
-export default Header3;
+export default Header;

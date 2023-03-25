@@ -8,8 +8,8 @@ const Signin: NextPage = () => {
   return (
     <>
       <Meta
-        title="Onlineshop"
-        description="Buy our products"
+        title="Dashboard Twitter"
+        description="loremm ipsum"
         pathName="/signup"
         thumbnail=""
       />

@@ -53,7 +53,7 @@ const ContentLoading = () => {
           flexDirection: 'column',
           justifyContent: 'center',
           alignItems: 'center',
-          marginTop: '10px',
+          marginTop: '20px',
         }}
       >
         <Spinner />
